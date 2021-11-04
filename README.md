@@ -34,7 +34,7 @@ The biggest differences for our classroom use are that the installation for vari
 
 ## Installing WSL
 The following instructions are pulled from the [Microsoft Install WSL](https://docs.microsoft.com/en-us/windows/wsl/install) page and will work for Windows 10 
-version 2004 and higher (Build 19041 and higher).
+version 2004 and higher (Build 19041.1151 and higher).
 
 > To check your Windows version and build number, select **Windows logo key + R**, type **winver**, select OK.
 
@@ -71,7 +71,7 @@ Then type in your desired password, and also press the `enter` key to submit.
 Before proceeding, run the following command in your Ubuntu terminal:
 
 ```
-sudo apt update
+sudo apt update && sudo apt upgrade
 ```
 ---
 
