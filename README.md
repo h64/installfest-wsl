@@ -452,7 +452,7 @@ createdb `whoami`
 
 ## Installing MongoDB
 
-Install **MongoDB** using Homebrew using the following commands:
+Install **MongoDB** using `apt` using the following commands:
 
 ```
 sudo apt install mongodb
