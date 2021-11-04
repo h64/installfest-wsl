@@ -356,10 +356,10 @@ code ~/.zshrc
 
 **If NOT using ZSH:**
 
-Use VS Code to edit the `~/.bash_profile` file:
+Use VS Code to edit the `~/.bashrc` file:
 
 ```
-code ~/.bash_profile
+code ~/.bashrc
 ```
 
 Copy the `export GIT_MERGE_AUTOEDIT=no` to the bottom of the chosen file and save it.
@@ -494,13 +494,13 @@ Test that it was installed by running `pip3 --version`.
 
 Next we need to add the packages that we can install using pip to the `PATH`
 
-Open up either `.zshrc` or `.bash_profile` if you're using ZSH or BASH respectively:
+Open up either `.zshrc` or `.bashrc` if you're using ZSH or BASH respectively:
 
 ``` 
 code ~/.zshrc
 
 # OR if you're using bash
-code ~/.bash_profile
+code ~/.bashrc
 ```
 
 Then paste this line to the bottom of the file, replacing your_user_name with your linux username:
