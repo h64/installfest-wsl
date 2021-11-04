@@ -136,7 +136,7 @@ Zsh is an extension of the regular bash shell that many computers use as default
 Install Zsh by running the following command in your terminal:
 
 ```sh
-sudo apt install zsh -y
+sudo apt install zsh
 ```
 
 ### Installing Oh-My-Zsh
